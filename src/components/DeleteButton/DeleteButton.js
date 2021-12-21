@@ -8,7 +8,6 @@ const DeleteButton = ({ id, onDelete }) => {
       onClick={() => onDelete(id)}
       className={styles.DeleteButton}
     >
-      Delete
     </button>
   );
 };
